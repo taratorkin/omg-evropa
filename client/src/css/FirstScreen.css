@@ -1,0 +1,80 @@
+.FirstScreen_mainImage {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../images/mainImage_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.FirstScreen_left {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  height: inherit;
+  justify-content: center;
+}
+
+.FirstScreen_left_text {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  margin-left: 10%;
+  flex-grow: 1;
+}
+
+.FirstScreen_left_text_name {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.FirstScreen_left_text_desc {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.FirstScreen_left_buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin-top: 50px;
+}
+
+.FirstScreen_left_buttons_item {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.FirstScreen_left_buttons_item:hover {
+  color: #A8D8FF;
+  border-color: #A8D8FF;
+}
+
+.FirstScreen_left_buttons_order {
+  background-color: #0275d8;
+  border: 0;
+  transition: background-color 0.5s ease;
+}
+
+.FirstScreen_left_buttons_order:hover {
+  color: white;
+  background-color: #339cf5;
+}
+
+.FirstScreen_right {
+  display: flex;
+  width: 50%;
+  height: inherit;
+}

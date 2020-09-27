@@ -99,3 +99,102 @@
   justify-content: center;
   flex: 1 1 0px;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #PricesScreen {
+    height: auto;
+  }
+
+  .PricesScreen_text {
+    align-items: flex-start;
+  }
+
+  .PricesScreen_image {
+    height: inherit;
+  }
+
+  .OrderScreen_text {
+    align-items: flex-start;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px)
+and (max-width : 480px)
+and (orientation : landscape) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px)
+and (orientation : portrait) {
+  .PricesScreen_text {
+    padding-left: 5px;
+  }
+
+  .PricesScreen_image {
+    display: none;
+  }
+
+  .OrderScreen_text {
+    padding-left: 5px;
+  }
+
+  #PricesScreen {
+    flex-flow: column;
+  }
+
+  #OrderScreen {
+    flex-flow: column;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .PricesScreen_text {
+    margin-left: 10px;
+    align-items: flex-start;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

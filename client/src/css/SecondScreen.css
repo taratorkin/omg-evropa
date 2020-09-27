@@ -1,0 +1,101 @@
+.SecondScreen {
+  display: flex;
+  flex-flow: column;
+  background-color: #D0D0D0;
+  color: black;
+  line-height: 30px;
+}
+
+.SecondScreen_headline {
+  font-family: 'Roboto', sans-serif;
+}
+
+.SecondScreen_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  max-width: 15%;
+  margin: 15px 0;
+  background-color: #0275d8;
+  border: 0;
+  transition: background-color 0.5s ease;
+}
+
+.SecondScreen_button:hover {
+  color: white;
+  background-color: #339cf5;
+}
+
+#PricesScreen {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  min-height: 540px;
+  height: 540px;
+}
+
+.PricesScreen_text {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.PricesScreen_text_item {
+  display: flex;
+}
+
+.PricesScreen_text_item_end {
+  margin-bottom: 10px;
+}
+
+.PricesScreen_image {
+  display: flex;
+  flex: 1 1 0px;
+  height: 100%;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../images/pricesImage_960x540.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#OrderScreen {
+  display: flex;
+  flex-flow: row;
+  min-height: 540px;
+  height: 540px;
+}
+
+.OrderScreen_image {
+  display: flex;
+  flex: 1 1 0px;
+  height: 100%;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../images/orderImage_960x540.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.OrderScreen_text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0px;
+}
